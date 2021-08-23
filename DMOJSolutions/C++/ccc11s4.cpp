@@ -1,6 +1,18 @@
 #include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cstring>
+#include <unordered_map>
+#include <unordered_set>
 using namespace std;
+#define PB push_back
+
+typedef long long int ll;
+typedef unsigned long long int ull;
 typedef pair<int, int> pii;
+typedef vector<int> vi;
+
+const int INF = 0x3f3f3f3f;
 
 int blood[8];
 int patients[8];
